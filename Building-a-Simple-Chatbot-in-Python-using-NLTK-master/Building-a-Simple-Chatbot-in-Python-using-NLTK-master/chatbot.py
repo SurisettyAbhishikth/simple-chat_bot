@@ -69,11 +69,7 @@ def response(user_response):
 
 
 flag=True
-print("""            @@@@@       bbb               H            H      IIIIIIIIIIIIIIIIIIII
-                     @@ @@@@@   bbbbbbbb    HHHHHHH             IIIIIII
-                    @@@@@@@@  b              b   H           H               IIIIIII
-                   @@              @@ bbbbbbbb     H           H       IIIIIIIIIIIIIIIIIIII
-	ROBO: My name is Robo. I will answer your queries about Chatbots. If you want to exit, type Bye!""")
+print("           ROBO: My name is Robo. I will answer your queries about Chatbots. If you want to exit, type Bye!")
 while(flag==True):
     user_response = input()
     user_response=user_response.lower()
